@@ -152,10 +152,6 @@
     grid-template-columns: repeat(5, 220px);
     gap: 20px;
   }
-  
-  .add-button-column {
-    margin-top: 340px; /* 320px (card height) + 20px (gap) = 340px */
-  }
 }
 
 @media (max-width: 1200px) {
@@ -168,10 +164,6 @@
   .add-card {
     width: 200px;
     height: 300px;
-  }
-  
-  .add-button-column {
-    margin-top: 316px; /* 300px (card height) + 16px (gap) = 316px */
   }
 }
 
@@ -186,10 +178,6 @@
     width: 180px;
     height: 280px;
   }
-  
-  .add-button-column {
-    margin-top: 296px; /* 280px (card height) + 16px (gap) = 296px */
-  }
 }
 
 @media (max-width: 600px) {
@@ -202,9 +190,5 @@
   .add-card {
     width: 160px;
     height: 260px;
-  }
-  
-  .add-button-column {
-    margin-top: 272px; /* 260px (card height) + 12px (gap) = 272px */
   }
 }
